@@ -1,0 +1,95 @@
+<html>
+<head><title>deplasare</title>
+ <meta name="viewport" content="width=device-width,initial-scale=1"/>
+<style>
+body, html{
+height:100%;
+margin:0;
+font-size: 16px;
+font-family:"Lato" , sans-serif;
+font-weight:400;
+line-height:1.8em;
+color:white;
+}
+
+body {
+  background-image: url("f1.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+
+.title {
+  color: #BBCBDD;
+}
+
+.text {
+   text-align: justify;
+   padding-left: 200px;
+   padding-right: 200px;
+   font-size: 20px;}
+
+.button {
+  display: inline-block;
+  border-radius: 2px;
+  background-color:#758FB1;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body bgcolor="#CFDDE8">
+<div class="text">
+<br><br>
+<h1 align="center">POSIBILITATE DE DEPLASARE</h1>
+<br><br><br> 
+  <p>Putem efectua lucrari la domiciliul clientului sau in situatii speciale in care este nevoie de deplasare. </p>
+ 
+  <p>Lucram la cererea clientului, la domiciliu.</p>
+  <p>Preturile se discuta telefonic.</p>
+  <p>Viteza mare de adaptare la cerintele pietii.</p>
+  <p>Transparenta maxima fata de client.</p>
+  <hr>
+  <p>Dubita personala conform cererii clientului</p>
+ <p><a href="dubita.html" target="continut"><button class="button" style="vertical-align:middle"><span>Imagini dubita</a></span></button>
+</div>
+
+
+
+</body>
+</html>
